@@ -1,10 +1,6 @@
 import os
 from twitchio.ext import commands
 
-print("Hello, asshole!")
-print(f"irc_token: {os.environ['TMI_TOKEN']}")
-print(f"name = {os.environ['BOT_NAME']}")
-
 # set up the bot
 bot = commands.Bot(
     irc_token=os.environ['TMI_TOKEN'],
